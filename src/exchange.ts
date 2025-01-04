@@ -1,27 +1,3 @@
-/**
- * Configuration options for simulating an exchange environment.
- */
-export type SimulationOptions = {
-    /**
-     * The name of the trading pair (e.g., "BTC-USD").
-     */
-    productName: string;
-
-    /**
-     * The initial account balance in USD.
-     */
-    accountBalance: number;
-
-    /**
-     * The exchange operation fee in percentage. Defaults to 0%.
-     */
-    fee?: number;
-
-    /**
-     * The initial quantity of the product (e.g., Bitcoin) in the account. Defaults to 0.
-     */
-    productQuantity?: number;
-};
 
 /**
  * Represents an account on the exchange.
