@@ -4,6 +4,7 @@ This repository contains common types shared across various BackMark projects an
 
 - **BackMark Back-Testing Tool**
 - **BackMark Coinbase Clients**
+- **BackMark Plotter**
 - **BackMark Trading Bot**
 
 These shared types ensure consistency and reusability across all BackMark-related projects.
